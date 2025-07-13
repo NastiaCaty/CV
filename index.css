@@ -1,0 +1,58 @@
+div {
+    margin: 100px 350px;
+    padding: 350px 100px 50px 100px;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 25px 20px 4px 2px rgba(103, 143, 156, 0.295);
+    border: 20px solid rgb(219, 242, 250);
+}
+
+hr {
+    border: none;
+    border-top: 2px solid rgb(152, 193, 207);
+}
+
+.name {
+    font-size: 40px;
+    text-align: center;
+}
+
+* {
+    font-family: "Oswald", sans-serif;
+}
+
+.contacts {
+    font-size: 28px;
+}
+
+li {
+    list-style: circle;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 22px;
+    font-size: 20px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 15px solid rgb(153, 188, 252);
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    display: block;
+}
+
+.li1 {
+    list-style: none;
+}
